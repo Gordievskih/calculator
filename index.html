@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div class="container">
+<div class="item text"><form name="form">
+    <input class="textview" type="text" name="textview" readonly>
+    </form
+ ></div>
+        <div class="item clean" onclick="clean()">C</div>
+        <div class="item back" onclick ="back()">&larr;</div>
+        <div class="item" onclick="input('+')">+</div>
+        <div class="item" onclick="input('-')">-</div>
+        <div class="item" onclick="input('*')">&times;</div>
+        <div class="item" onclick="input('/')">&divide;</div>
+        <div class="item" onclick="input('7')">7</div>
+        <div class="item" onclick="input('8')">8</div>
+        <div class="item" onclick="input('9')">9</div>
+        <div class="item" onclick="percent()">%</div>
+        <div class="item" onclick="input('4')">4</div>
+        <div class="item" onclick="input('5')">5</div>
+        <div class="item" onclick="input('6')">6</div>
+        <div class="item" onclick="sqrt()">&Sqrt;</div>
+        <div class="item" onclick="input('1')">1</div>
+        <div class="item" onclick="input('2')">2</div>
+        <div class="item" onclick="input('3')">3</div>
+        <div class="item equal" onclick="equal()">=</div>
+        <div class="item zero" onclick="input('0')">0</div>
+        <div class="item" onclick="input('.')">.</div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
